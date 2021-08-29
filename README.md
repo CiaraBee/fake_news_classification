@@ -21,7 +21,7 @@ The two publicly available datasets used in this project are available for downl
 	
 	Combined Corpus dataset -> https://github.com/JunaedYounusKhan51/FakeNewsDetection/tree/master/Dataset/Combined_Corpus
 
-The manually created fact_opinion dataset is available at: BlackledgeC_200743862_CSC8639_fact_opinion_dataset.csv
+The manually created fact_opinion dataset can be found in the file: fact_opinion_dataset.csv
 
 # Notebooks:
 fact_opinion.ipynb -> This notebook contains the code needed to create the fact/opinion classifier needed for the two step classification pipeline.
