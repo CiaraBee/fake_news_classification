@@ -16,7 +16,9 @@ Experiments are run to test both in distribution (testing on a holdout test set)
 
 # Data:
 The two publicly available datasets used in this project are available for download at:
+
 	ISOT fake news dataset -> https://www.uvic.ca/engineering/ece/isot/datasets/fake-news/index.php
+	
 	Combined Corpus dataset -> https://github.com/JunaedYounusKhan51/FakeNewsDetection/tree/master/Dataset/Combined_Corpus
 
 The manually created fact_opinion dataset is available at: BlackledgeC_200743862_CSC8639_fact_opinion_dataset.csv
