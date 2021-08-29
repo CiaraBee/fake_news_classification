@@ -12,7 +12,7 @@ BERT-based transformers:
 - DistilBERT
 - DeBERTa 
 
-Generalisatione experiments are run on both in distribution and out of distribution generalisation, showing transformers as the best model types for both. In order to improve generalisation, we propose a two step classification pipeline which identifies and removes opinion based articles from subsequent training data. Opinions are by definition highly subjective and therefore cannot be labelled as "real" or "fake", meaning that these samples in the data may cause models to learn incorrect patterns or patterns that are unique to a dataset labelled by a specific factchecker with a specific belief system, and therefore do not generalise. 
+Experiments are run to test both in distribution (testing on a holdout test set) and out of distribution (testing on an entirely new dataset with different data distributions) generalisation, showing transformers as the best model types for both. In order to improve generalisation, we propose a two step classification pipeline which identifies and removes opinion based articles from subsequent training data. Opinions are by definition highly subjective and therefore cannot be labelled as "real" or "fake", meaning that these samples in the data may cause models to learn incorrect patterns or patterns that are unique to a dataset labelled by a specific factchecker with a specific belief system, and therefore do not generalise. 
 
 # Data:
 The two publicly available datasets used in this project are available for download at:
